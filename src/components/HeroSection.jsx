@@ -6,28 +6,28 @@ const HeroSection = () => {
       {/* Left Section */}
       <div className="md:w-1/2 text-center md:text-left space-y-6">
         <h1 className="text-5xl md:text-5xl font-semibold text-gray-900">
-          Welcome to <br />
-          ChooseApp, <br />
-          India’s first modern <br />
-          mobility super app.
+          Welcome to 
+          OneKart- <br />
+          India’s first grocery price comparison app.
+ <br />
         </h1>
         <p className="text-gray-900 text-xl font-semibold">
-          Get easy access to various cab aggregators across the <br />
-          country to get ensured rides.
-          Find Cabs, autos, bikes at <br />
-          your fingertips in the easiest way – all in one app!
+          Get real-time access to prices across top grocery platforms in India.
+Compare prices, delivery times, and offers — all in one place.
+Find groceries at the best price, from your favorite platforms,
+with just a few taps!
         </p>
         <div >
           <p className="text-2xl font-medium mt-12">Download the app</p>
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-2">
             <div className="flex flex-col items-center">
-              <p className="mb-1 text-xl text-gray-900 mr-12">choose.app</p>
-              <a href="https://apps.apple.com/in/app/choose-app-compare-cab-prices/id6663954160" target="_blank" rel="noopener noreferrer">
+              {/* <p className="mb-1 text-xl text-gray-900 mr-12">choose.app</p> */}
+              {/* <a href="https://apps.apple.com/in/app/choose-app-compare-cab-prices/id6663954160" target="_blank" rel="noopener noreferrer">
                 <img src="/Images/app.png" alt="App Store" className="w-40" />
-              </a>
+              </a> */}
             </div>
             <div className="flex flex-col items-center">
-              <p className="mb-1 text-xl text-gray-900 mr-12">chooseapp</p>
+              {/* <p className="mb-1 text-xl text-gray-900 mr-12">chooseapp</p> */}
               <a href="https://play.google.com/store/apps/details?id=com.az.choosecabs" target="_blank" rel="noopener noreferrer">
                 <img src="/Images/playstore.png" alt="Play Store" className="w-40" />
               </a>

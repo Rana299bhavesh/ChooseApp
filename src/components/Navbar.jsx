@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src="/Images/ChooseApp-logo.jpg" alt="ChooseApp Logo" className="w-50 h-10" />
+          <img src="/Images/ChooseAp-logo.jpg" alt="OneKart Logo" className="w-50 h-10" />
           
         </div>
 
