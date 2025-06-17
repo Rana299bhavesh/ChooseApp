@@ -8,6 +8,8 @@ import InvestorsSection from './components/InvestorsSection'
 import PressSection from './components/PressSection'
 import BlogSection from './components/BlogSection'
 import Careers from './components/Careers'
+import ContactUs from './components/ContactUs'
+import CabCompareSection from './components/CabCompareSection'
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
       <PressSection />
       <BlogSection />
       <Careers />
+      <ContactUs />
+      <CabCompareSection />
     </div>
   )
 }
